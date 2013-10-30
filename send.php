@@ -5,10 +5,10 @@
 	$tweet = $_POST['text-tweet'];
 
 	$settings = array(
-	    'oauth_access_token' => "1915307030-DncieQIK9L8GUZ0AP9pffEIG7xFC6qNv1hZCQNS",
-	    'oauth_access_token_secret' => "wl3kJ54fGWLMtC9J4vQkXiuqSbmJDNKs3YoLJZ71VE",
-	    'consumer_key' => "CDNEQm5QxPBjBrkBUSrPQw",
-	    'consumer_secret' => "AOkh0qk3dUkRi1guk3MKwGEo7yp4M4wUmSfS21MIk"
+	    'oauth_access_token' => "Your oauth_access_token",
+	    'oauth_access_token_secret' => "Your oauth_access_token_secret",
+	    'consumer_key' => "Your consumer_key",
+	    'consumer_secret' => "Your consumer_secret"
 	);
 	$url = 'https://api.twitter.com/1.1/statuses/update.json';
 	$requestMethod = 'POST';
